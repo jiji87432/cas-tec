@@ -1,0 +1,12 @@
+{
+  "@class" : "org.apereo.cas.services.RegexRegisteredService",
+  "serviceId" : "^(http)://.*",
+  "name" : "HTTP",
+  "id" : 10000003,
+  "description" : "This service definition authorizes all application urls that support HTTP protocol.",
+  "evaluationOrder" : 10000,
+  "attributeReleasePolicy" : {
+    "@class" : "org.apereo.cas.services.ReturnAllAttributeReleasePolicy"
+  },
+  "allowedToProxy" : true
+}
